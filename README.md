@@ -4,9 +4,8 @@ Tujuan:
 - Mempermudah proses pembelian barang.
 - Mengelola stok barang secara otomatis.
 - Menyediakan struk pembelian untuk pelanggan.
-- 
-Program terdiri dari 3 kelas utama dan 1 blok program utama:
 
+Program terdiri dari 3 kelas utama dan 1 blok program utama:
 Kelas Product: Mengelola data barang.
 Kelas Transaction: Mengelola proses transaksi.
 Kelas View: Menampilkan antarmuka pengguna (menu).
@@ -17,13 +16,13 @@ Fungsi:
 Mengelola data barang seperti nama, harga, dan stok.
 Memiliki metode untuk mengurangi stok barang setelah transaksi.
 Penjelasan Atribut dan Metode:
-Atribut:
 
+Atribut:
 name: Nama produk.
 price: Harga produk.
 stock: Jumlah stok yang tersedia.
-Metode:
 
+Metode:
 _init_(self, name, price, stock): Konstruktor untuk menginisialisasi atribut produk.
 reduce_stock(self, quantity):
 Mengurangi stok barang berdasarkan jumlah yang dibeli.
@@ -37,12 +36,12 @@ Menambahkan barang ke keranjang.
 Menghitung total harga.
 Menampilkan struk pembelian.
 Penjelasan Atribut dan Metode:
-Atribut:
 
+Atribut:
 cart: Daftar barang yang ditambahkan ke keranjang, beserta jumlahnya.
 total_price: Total harga dari semua barang dalam keranjang.
-Metode:
 
+Metode:
 _init_(self): Konstruktor untuk menginisialisasi keranjang belanja dan total harga.
 add_to_cart(self, product, quantity):
 Memeriksa apakah stok mencukupi.
